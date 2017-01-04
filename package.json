@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index 'ZZ Top' acdc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,6 +13,8 @@
     "data.either": "^1.4.0",
     "data.task": "^3.1.1",
     "fantasy-identities": "0.0.1",
+    "immutable": "^3.8.1",
+    "immutable-ext": "^1.0.8",
     "request": "^2.79.0"
   }
 }
