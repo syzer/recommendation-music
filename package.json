@@ -1,0 +1,17 @@
+{
+  "name": "recommendation-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "data.either": "^1.4.0",
+    "data.task": "^3.1.1",
+    "fantasy-identities": "0.0.1",
+    "request": "^2.79.0"
+  }
+}
