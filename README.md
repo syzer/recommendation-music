@@ -37,6 +37,10 @@ is isomorphic
 also its idempotent (always return same set)
 
 
+# Example 2
+
+if we want
+
 # Example Spotify API
 
 ```bash

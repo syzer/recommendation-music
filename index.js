@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const request = require('request')
-const fs = require('fs')
 const Task = require('data.task')
 const { getArtist, relatedArtists } = require('./db')
 
