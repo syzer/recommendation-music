@@ -39,7 +39,13 @@ also its idempotent (always return same set)
 
 # Example 2
 
-if we want
+If we want more artist we need to use traversable list
+```
+nodemon  -x './usingImmutable.js acdc "ZZ Top" "Deep Purple"'
+=> [ 'Alice Cooper', 'Thin Lizzy' ]
+```
+
+
 
 # Example Spotify API
 
