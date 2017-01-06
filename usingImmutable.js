@@ -7,7 +7,6 @@ const Task = require('data.task')
 const { getArtist, relatedArtists } = require('./db')
 const { List } = require('immutable-ext')
 const { Pair, Sum } = require('./monoids')
-const { pair } = require('ramda')
 
 // like promise, but applicative functor
 const argv = new Task((rej, res) => res(process.argv))
@@ -50,3 +49,5 @@ const main = artistNames =>
 artistNames
     .chain(main)
     .fork(console.error, console.log)
+
+module.exports = main
