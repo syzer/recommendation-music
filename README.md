@@ -42,7 +42,7 @@ also its idempotent (always return same set)
 If we want more artist we need to use traversable list
 ```
 nodemon  -x './usingImmutable.js acdc "ZZ Top" "Deep Purple"'
-=> [ 'Alice Cooper', 'Thin Lizzy' ]
+=> [ [ 'Alice Cooper', 'Thin Lizzy' ], 60 ]
 ```
 
 
