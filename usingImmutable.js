@@ -27,13 +27,6 @@ const relatedArtist = artistName =>
         // two lists of artists, combine them with semigroup AKA set intersection
         .map(artists => artists.map(artist => artist.name))
 
-// not do that
-// const artistIntersection = relatedArtist1 => relatedArtist2 => relatedArtist3 =>
-//     xor(relatedArtist1).concat(xor(relatedArtist2)).concat(xor(relatedArtist4)).xs
-
-// const artistIntersection = relateds =>
-//     relateds.foldMap(xor).xs
-
 const artistIntersection = relateds =>
     relateds.foldMap(x => Pair(xor(x), Sum(x.length)))
     // Pair is bifunctor, so we can run map twice
