@@ -1,5 +1,7 @@
 # WAT
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syzer/recommendation-music.svg)](https://greenkeeper.io/)
+
 Recommendation engine using spotify db
 
 Inspired by FP workshop.
